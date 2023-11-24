@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "dimension-reduction"
+version = "0.1.0"
+description = ""
+authors = ["Miyazawa Akira <pecorarista@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dimension_reduction"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+gensim = "^4.3.2"
+numpy = "^1.26.2"
+scikit-learn = "^1.3.2"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.17.2"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+flake8-pyproject = "^1.2.3"
+pytest = "^7.4.3"
+
+[tool.flake8]
+max-line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
