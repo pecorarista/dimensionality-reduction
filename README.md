@@ -1,5 +1,7 @@
 [Effective Dimensionality Reduction for Word Embeddings](https://aclanthology.org/W19-4328) (Raunak et al., RepL4NLP 2019) の実装．
 
+※ ライブラリとして整備する予定はないので，適宜コードを流用して使用してください．
+
 ## 環境設定
 1. [WorksApplications/chiVe](https://github.com/WorksApplications/chiVe) の `v1.1 mc5 aunit` (gensim) をダウンロードする．
 1. 必要なパッケージをインストールする．
@@ -14,7 +16,6 @@
     poetry shell
     pytest -v
     ```
-1. ライブラリとして整備する予定はないので，適宜コードを流用して使用する．
 
 ## PPA
 [All-but-the-Top: Simple and Effective Postprocessing for Word Representations](https://openreview.net/forum?id=HkuGJ3kCb) (Mu et al., ICLR 2018) に基づく．以下の説明は `numpy` に合わせて横ベクトルを中心に記述してある．
