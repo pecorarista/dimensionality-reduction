@@ -37,7 +37,7 @@
         \vdots \\
         \widetilde{v}^{(n)}{}^\mathsf{T}
     \end{pmatrix}`$.
-1. $`W \leftarrow \mathrm{PCA}(\widetilde{V},\, K)`$，ただし $`W =
+1. $`W \leftarrow \mathrm{PCAeigenvectors}(\widetilde{V},\, K)`$，ただし $`W =
    \begin{pmatrix}
        w^{(1)}{}^\mathsf{T} \\
        \vdots \\
