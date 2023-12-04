@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Miyazawa Akira <pecorarista@gmail.com>"]
 readme = "README.md"
-packages = [{include = "dimension_reduction"}]
+packages = [{include = "reduction"}]
 
 [tool.poetry.dependencies]
 python = "~3.11"
